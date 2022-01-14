@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+
+import React from "react";
 import "./App.css";
 import Nav from "./components/Nav";
 import About from "./components/About";
@@ -38,10 +39,5 @@ function App() {
         {contactSelected ? <Contact></Contact> : <></>}
         {portfolioSelected ? <Portfolio></Portfolio> : <></>}
         {resumeSelected ? <Resume></Resume> : <></>}
-      </main>
-      <Footer></Footer>
-    </div>
-  );
-}
 
 export default App;

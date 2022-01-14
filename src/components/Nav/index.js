@@ -13,8 +13,6 @@ function Nav(props) {
                             setResumeSelected(false);
                              setPortfolioSelected(false)}}>
         <a>Christy Sheppard</a>
-      </h1>
-      {/* <!-- site navigation --> */}
       <nav>
         <ul>
           <li onClick={() => { setContactSelected(false);
@@ -48,8 +46,6 @@ function Nav(props) {
               setResumeSelected(false);   
              setPortfolioSelected(false)}}>
             <a>Contact</a>
-          </li>
-        </ul>
       </nav>
     </header>
   );
