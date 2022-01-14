@@ -3,8 +3,9 @@ import React from "react";
 function Footer() {
   return (
     <footer>
-      When I was a kid, some people called me Christina, while others called me
-      Christy. So, naturally(?) I thought my name was Christy-Tina.
+
+      THEN I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter) 
+
     </footer>
   );
 }
