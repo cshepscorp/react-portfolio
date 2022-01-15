@@ -1,16 +1,16 @@
 [
   {
     "id": "1",
-    "name": "Lorem Sipsum",
-    "appLink": "https://cshepscorp.github.io/lorem-sipsum/",
-    "gitHubLink": "https://github.com/cshepscorp/lorem-sipsum",
-    "image": "https://cshepscorp.github.io/react-photo-port/static/media/0.943044a74b8e619632e4.jpg"
+    "name": "Pokegen",
+    "appLink": "https://desolate-ridge-10974.herokuapp.com/",
+    "gitHubLink": "https://github.com/cshepscorp/pokegen",
+    "image": "https://desolate-ridge-10974.herokuapp.com/images/hero-pokegen_bg.png"
   },
   {
     "id": "2",
-    "name": "Pokegen",
+    "name": "Lorem Sipsum",
     "appLink": "https://cshepscorp.github.io/lorem-sipsum/",
     "gitHubLink": "https://github.com/cshepscorp/lorem-sipsum",
-    "image": "https://cshepscorp.github.io/react-photo-port/static/media/0.943044a74b8e619632e4.jpg"
+    "image": "https://github.com/cshepscorp/lorem-sipsum/raw/main/LoremSipsum.PNG"
   }
 ]
