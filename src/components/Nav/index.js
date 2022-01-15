@@ -8,46 +8,45 @@ function Nav(props) {
   return (
     <header>
       {/* <!-- site logo graphic and or main text logo --> */}
-      <h1 onClick={() => { setContactSelected(false);
+      <h1>
+        <a onClick={() => { setContactSelected(false);
                             setAboutSelected(false);
                             setResumeSelected(false);
-                             setPortfolioSelected(false)}}>
-        <a>Christy Sheppard</a>
+                             setPortfolioSelected(false)}}>Christy Sheppard</a>
       </h1>
       {/* <!-- site navigation --> */}
       <nav>
         <ul>
-          <li onClick={() => { setContactSelected(false);
+          <li>
+            <a className={`${aboutSelected && "navActive"}`} onClick={() => { setContactSelected(false);
                                       setAboutSelected(true);
                             setResumeSelected(false);
-                             setPortfolioSelected(false)}}>
-            <a>About Me</a>
+                             setPortfolioSelected(false)}}>About Me</a>
           </li>
         </ul>
         <ul>
-        <li onClick={() => { setContactSelected(false);
-                                    setAboutSelected(false);
+        <li>
+            <a className={`${portfolioSelected && "navActive"}`} onClick={() => { setContactSelected(false);
+                                setAboutSelected(false);
                               setResumeSelected(false);
-                             setPortfolioSelected(true)}}>
-            <a>Portfolio</a>
+                             setPortfolioSelected(true)}}>Portfolio</a>
           </li>
         </ul>
         <ul>
-        <li onClick={() => { setContactSelected(false);
+        <li>
+            <a className={`${resumeSelected && "navActive"}`} onClick={() => { setContactSelected(false);
                                     setAboutSelected(false);
                               setResumeSelected(true);   
-                             setPortfolioSelected(false)}}>
-            <a>Resume</a>
+                             setPortfolioSelected(false)}}>Resume</a>
           </li>
         </ul>
         <ul>
-          <li
-            className={`${contactSelected && "navActive"}`}
+          <li>
+            <a className={`${contactSelected && "navActive"}`}
             onClick={() => { setContactSelected(true);
               setAboutSelected(false);
               setResumeSelected(false);   
-             setPortfolioSelected(false)}}>
-            <a>Contact</a>
+             setPortfolioSelected(false)}}>Contact</a>
           </li>
         </ul>
       </nav>

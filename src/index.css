@@ -266,9 +266,7 @@ footer {
   flex-wrap: wrap;
 }
 
-.navActive {
-  color: var(--primary);
-}
+
 
 /* media queries */
 @media screen and (max-width: 992px) {
@@ -335,4 +333,8 @@ footer {
   .social {
     padding-top: 15px;
   }
+}
+
+.navActive {
+  color: #ff69b4;
 }
