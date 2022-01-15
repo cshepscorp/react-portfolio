@@ -152,13 +152,15 @@ form {
   padding-left: 10px;
 }
 
-.guts a, .intro a {
+.guts a,
+.intro a {
   color: var(--primary-color);
   font-weight: bold;
   line-height: 24px;
 }
 
-.guts a:hover, .intro a:hover {
+.guts a:hover,
+.intro a:hover {
   font-weight: bold;
   line-height: 24px;
   text-decoration: underline;
@@ -220,11 +222,12 @@ label {
   display: block;
 }
 
-input, textarea {
+input,
+textarea {
   height: 30px;
   width: 100%;
   margin-bottom: 10px;
-  padding: 1%;
+  padding: 1.25%;
   border-radius: 12px;
   border-color: var(--secondary-color);
 }
@@ -301,7 +304,7 @@ footer {
     justify-content: center;
   }
   header nav a {
-    font-size: 19px;
+    font-size: 16px;
   }
   header h1 {
     font-size: 2.25em;
@@ -339,6 +342,10 @@ footer {
   }
   .social {
     padding-top: 15px;
+  }
+  input,
+  textarea {
+    padding: 2%;
   }
 }
 
