@@ -12,5 +12,33 @@
     "appLink": "https://cshepscorp.github.io/lorem-sipsum/",
     "gitHubLink": "https://github.com/cshepscorp/lorem-sipsum",
     "image": "https://github.com/cshepscorp/lorem-sipsum/raw/main/LoremSipsum.PNG"
+  },
+  {
+    "id": "3",
+    "name": "Portfolio (old)",
+    "appLink": "https://cshepscorp.github.io/portfolio/",
+    "gitHubLink": "https://github.com/cshepscorp/portfolio",
+    "image": "https://cshepscorp.github.io/portfolio/assets/images/hero-headshot-vinyls.jpeg"
+  },
+  {
+    "id": "4",
+    "name": "Budget Tracker",
+    "appLink": "https://pacific-inlet-60509.herokuapp.com/",
+    "gitHubLink": "https://github.com/cshepscorp/budget-tracker",
+    "image": "https://github.com/cshepscorp/budget-tracker/raw/main/public/images/budget-tracker-pwa.jpg"
+  },
+  {
+    "id": "5",
+    "name": "MVC Challenge Tech Blog",
+    "appLink": "https://sleepy-fjord-78462.herokuapp.com/",
+    "gitHubLink": "https://github.com/cshepscorp/MVC-Challenge-Tech-Blog",
+    "image": ""
+  },
+  {
+    "id": "6",
+    "name": "Weather Dashboard",
+    "appLink": "https://cshepscorp.github.io/weather-dashboard/",
+    "gitHubLink": "https://github.com/cshepscorp/weather-dashboard",
+    "image": "https://github.com/cshepscorp/weather-dashboard/raw/main/assets/images/app-preview.png"
   }
 ]
