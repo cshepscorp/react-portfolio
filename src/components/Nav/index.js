@@ -8,64 +8,77 @@ function Nav(props) {
   return (
     <header>
       {/* <!-- site logo graphic and or main text logo --> */}
-      <h1
-        onClick={() => {
-          setContactSelected(false);
-          setAboutSelected(false);
-          setResumeSelected(false);
-          setPortfolioSelected(false);
-        }}
-      >
-        <a>Christy Sheppard</a>
+      <h1>
+        <a
+          onClick={() => {
+            setContactSelected(false);
+            setAboutSelected(false);
+            setResumeSelected(false);
+            setPortfolioSelected(false);
+          }}
+        >
+          Christy Sheppard
+        </a>
       </h1>
       <nav>
         <ul>
-          <li
-            onClick={() => {
-              setContactSelected(false);
-              setAboutSelected(true);
-              setResumeSelected(false);
-              setPortfolioSelected(false);
-            }}
-          >
-            <a>About Me</a>
+          <li>
+            <a
+              className={`${aboutSelected && "navActive"}`}
+              onClick={() => {
+                setContactSelected(false);
+                setAboutSelected(true);
+                setResumeSelected(false);
+                setPortfolioSelected(false);
+              }}
+            >
+              About Me
+            </a>
           </li>
         </ul>
         <ul>
-          <li
-            onClick={() => {
-              setContactSelected(false);
-              setAboutSelected(false);
-              setResumeSelected(false);
-              setPortfolioSelected(true);
-            }}
-          >
-            <a>Portfolio</a>
+          <li>
+            <a
+              className={`${portfolioSelected && "navActive"}`}
+              onClick={() => {
+                setContactSelected(false);
+                setAboutSelected(false);
+                setResumeSelected(false);
+                setPortfolioSelected(true);
+              }}
+            >
+              Portfolio
+            </a>
           </li>
         </ul>
         <ul>
-          <li
-            onClick={() => {
-              setContactSelected(false);
-              setAboutSelected(false);
-              setResumeSelected(true);
-              setPortfolioSelected(false);
-            }}
-          >
-            <a>Resume</a>
+          <li>
+            <a
+              className={`${resumeSelected && "navActive"}`}
+              onClick={() => {
+                setContactSelected(false);
+                setAboutSelected(false);
+                setResumeSelected(true);
+                setPortfolioSelected(false);
+              }}
+            >
+              Resume
+            </a>
           </li>
         </ul>
         <ul>
-          <li
-            className={`${contactSelected && "navActive"}`}
-            onClick={() => {
-              setContactSelected(true);
-              setAboutSelected(false);
-              setResumeSelected(false);
-              setPortfolioSelected(false);
-            }}
-          >
-            <a>Contact</a>
+          <li>
+            <a
+              className={`${contactSelected && "navActive"}`}
+              onClick={() => {
+                setContactSelected(true);
+                setAboutSelected(false);
+                setResumeSelected(false);
+                setPortfolioSelected(false);
+              }}
+            >
+              Contact
+            </a>
           </li>
         </ul>
       </nav>

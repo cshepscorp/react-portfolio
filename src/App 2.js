@@ -4,7 +4,7 @@ import Nav from "./components/Nav";
 import About from "./components/About";
 import Hero from "./components/Hero";
 import Portfolio from "./components/Portfolio";
-import ContactForm from "./components/Contact";
+import Contact from "./components/Contact";
 import Resume from "./components/Resume";
 import Footer from "./components/Footer";
 
@@ -12,7 +12,7 @@ function App() {
   const [contactSelected, setContactSelected] = useState(false);
   const [portfolioSelected, setPortfolioSelected] = useState(false);
   const [resumeSelected, setResumeSelected] = useState(false);
-  const [aboutSelected, setAboutSelected] = useState(true); // prevent the contact form from showing when a user initially navigates to the homepage
+  const [aboutSelected, setAboutSelected] = useState(false); // prevent the contact form from showing when a user initially navigates to the homepage
 
   return (
     <div>
@@ -35,7 +35,7 @@ function App() {
         ) : (
           <></>
         )}
-        {contactSelected ? <ContactForm></ContactForm> : <></>}
+        {contactSelected ? <Contact></Contact> : <></>}
         {portfolioSelected ? <Portfolio></Portfolio> : <></>}
         {resumeSelected ? <Resume></Resume> : <></>}
       </main>
