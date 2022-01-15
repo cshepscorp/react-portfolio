@@ -34,6 +34,7 @@ header {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  background-size: cover;
 }
 
 header h1 {
@@ -263,7 +264,6 @@ button:hover {
 .flex-row {
   display: flex;
 }
-/* footer styling */
 
 .resume {
   line-height: 1.75em;
@@ -277,6 +277,7 @@ button:hover {
   margin-bottom: 10px;
 }
 
+/* footer styling */
 footer {
   padding: 20px 35px;
   font-weight: bold;
@@ -310,7 +311,7 @@ footer {
     font-size: 2.25em;
   }
   header nav {
-    margin-top: 15px;
+    margin-top: 16px;
   }
   section {
     padding: 1%;
