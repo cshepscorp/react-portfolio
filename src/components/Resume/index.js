@@ -7,12 +7,11 @@ function Resume() {
       </div>
       <div class="guts">
         <div class="resume">
-        <h3>
-          <a href="https://github.com/cshepscorp/react-portfolio/blob/main/public/Resume-Christy-Sheppard.pdf">
-            Download
-          </a>{" "}
-          my Resume
-        </h3>
+          <h3>
+            <a href="https://github.com/cshepscorp/react-portfolio/blob/main/public/Resume-Christy-Sheppard.pdf">
+              <i class="fa fa-download"></i> Download my Resume
+            </a>
+          </h3>
           <h3>Technical Skills</h3>
           <h4>Frontend:</h4>
           <ul>
@@ -34,7 +33,7 @@ function Resume() {
             <li>Mongoose</li>
             <li>IndexedDB</li>
           </ul>
-          </div>
+        </div>
       </div>
     </section>
   );

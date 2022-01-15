@@ -7,12 +7,9 @@ function About() {
         <h3>About Me</h3>
       </div>
       <div class="guts">
-        <h4>Hi, I'm Christy</h4>
+        <h4>Hi, My name Christy Sheppard</h4>
         <p>
-          I love a challenge. When I'm tasked with a project I'm not 100% sure
-          how to complete - I get excited - and then I get to work! I would love
-          the opportunity to put that enthusiasm into action for you, and for us
-          to end up with something beautiful as a result.
+        I am a front-end web developer utilizing deep experience with Adobe Graphic Suite and e-commerce management skills to craft and design attractive and intuitive user experiences on the web. I love a challenge. When I'm tasked with a project I'm not 100% sure how to complete - I get excited - and then I get to work!
         </p>
       </div>
     </section>

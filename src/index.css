@@ -153,9 +153,15 @@ form {
 }
 
 .guts a, .intro a {
-  color: #ff69b4;
+  color: var(--primary-color);
   font-weight: bold;
   line-height: 24px;
+}
+
+.guts a:hover, .intro a:hover {
+  font-weight: bold;
+  line-height: 24px;
+  text-decoration: underline;
 }
 
 img {
@@ -201,7 +207,7 @@ img {
 }
 
 .social a {
-  color: #2c314c;
+  color: var(--primary-color);
   font-size: 20px;
   padding: 1%;
 }
@@ -214,7 +220,7 @@ label {
   display: block;
 }
 
-input {
+input, textarea {
   height: 30px;
   width: 100%;
   margin-bottom: 10px;
@@ -223,8 +229,7 @@ input {
 }
 
 textarea {
-  width: 100%;
-  border-radius: 12px;
+  height: 100px;
 }
 
 textarea:focus,
@@ -247,7 +252,7 @@ button {
 }
 
 button:hover {
-  color: var(--secondary-color);
+  color: var(--primary-color);
   background: var(--tertiary-color);
 }
 
@@ -271,13 +276,11 @@ button:hover {
 footer {
   padding: 20px 35px;
   font-weight: bold;
-  color: #2c314c;
+  color: var(--primary-color);
   background-color: #999;
   background-image: url("../public/images/footer-grad-bow.jpeg");
   background-size: cover;
-  /* display: flex; */
   justify-content: center;
-  /* flex-wrap: wrap; */
 }
 
 /* media queries */
