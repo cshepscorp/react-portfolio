@@ -29,8 +29,6 @@ a {
 /* header and nav styles */
 header {
   padding: 20px 35px;
-  /* background-color: var(--tertiary-color);
-   */
   background-image: url("../public/images/footer-grad-bow.jpeg");
   display: flex;
   justify-content: space-between;
@@ -80,15 +78,6 @@ header nav ul a:hover:after {
   transform-origin: 50% 50%;
 }
 
-/* all sections get */
-/* section {
-  padding: 0;
-  color: #fff;
-  display: flex;
-  flex-wrap: wrap;
-  background-color: teal;
-} */
-
 section {
   padding: 20px 35px;
   font-weight: bold;
@@ -117,9 +106,6 @@ section {
   padding: 40px;
   padding: 250px 0;
 }
-/* section:nth-child(odd) {
-  background-color: var(--primary-color);
-} */
 
 form {
   width: 100%;
@@ -161,28 +147,34 @@ form {
   padding-left: 10px;
 }
 
+img {
+  border-radius: 12px;
+}
+
 .card {
   flex: 0 0 31%;
-  padding: 10px;
+  padding: 5px;
   margin: 8px;
-  border: 1px solid #000;
-  border-radius: 2px;
-  color: rgba(255, 255, 255, 1);
+  border: 1px solid #fce138;
+  border-radius: 12px;
+  color: var(--secondary-color);
   background-color: #fff;
   line-height: 24px;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.08), 0 0 6px rgba(0, 0, 0, 0.05);
+  transition: 0.3s transform cubic-bezier(0.155, 1.105, 0.295, 1.12),
+    0.3s box-shadow,
+    0.3s -webkit-transform cubic-bezier(0.155, 1.105, 0.295, 1.12);
 }
 
 .card:hover {
-  background: linear-gradient(
-    rgba(255, 255, 255, 0.5),
-    rgba(255, 255, 255, 0.5)
-  );
   background-size: cover;
   background-position: center;
   background-blend-mode: multiply;
+  transform: scale(1.015);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);
 }
 
-.card h3 {
+.card a {
   color: var(--secondary-color);
 }
 
@@ -215,10 +207,23 @@ input {
   height: 30px;
   width: 100%;
   margin-bottom: 10px;
+  border-radius: 12px;
+  border-color: var(--secondary-color);
 }
 
 textarea {
   width: 100%;
+  border-radius: 12px;
+}
+
+textarea:focus,
+input:focus {
+  outline: none;
+  border: 1px solid #fce138;
+}
+
+.error-text {
+  padding-bottom: 8px;  
 }
 
 button {
@@ -226,6 +231,11 @@ button {
   padding: 12px;
   font-size: large;
   background-color: #ff69b4;
+}
+
+button:hover {
+  color: var(--secondary-color);
+  background: var(--tertiary-color);
 }
 
 .flex-row {
@@ -262,21 +272,10 @@ footer {
   .card {
     flex: 0 0 47%;
   }
-  .featured {
-    flex: 100%;
-  }
 }
 @media screen and (max-width: 768px) {
   .card {
     flex: 0 0 45%;
-  }
-  .featured {
-    flex: 100%;
-  }
-  .card h4,
-  .card p {
-    background-color: rgba(0, 0, 0, 0.5);
-    padding: 5px 10px;
   }
 }
 @media screen and (max-width: 575px) {
@@ -290,14 +289,13 @@ footer {
   header nav {
     margin-top: 15px;
   }
+  section {
+    padding: 1%;
+  }
   .intro {
     flex: 1 100%;
     padding: 30px;
     padding-bottom: 0px;
-  }
-  .featured h4,
-  .featured p {
-    font-size: 1.25em;
   }
   .card {
     flex: 100%;
