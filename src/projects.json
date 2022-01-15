@@ -18,27 +18,27 @@
     "name": "Portfolio (old)",
     "appLink": "https://cshepscorp.github.io/portfolio/",
     "gitHubLink": "https://github.com/cshepscorp/portfolio",
-    "image": "https://cshepscorp.github.io/portfolio/assets/images/hero-headshot-vinyls.jpeg"
+    "image": "https://github.com/cshepscorp/react-portfolio/blob/main/public/images/port-old.jpg?raw=true"
   },
   {
     "id": "4",
     "name": "Budget Tracker",
     "appLink": "https://pacific-inlet-60509.herokuapp.com/",
     "gitHubLink": "https://github.com/cshepscorp/budget-tracker",
-    "image": "https://github.com/cshepscorp/budget-tracker/raw/main/public/images/budget-tracker-pwa.jpg"
+    "image": "https://github.com/cshepscorp/react-portfolio/blob/main/public/images/budget-tracker.jpg?raw=true"
   },
   {
     "id": "5",
     "name": "MVC Challenge Tech Blog",
     "appLink": "https://sleepy-fjord-78462.herokuapp.com/",
     "gitHubLink": "https://github.com/cshepscorp/MVC-Challenge-Tech-Blog",
-    "image": ""
+    "image": "https://github.com/cshepscorp/react-portfolio/blob/main/public/images/mvc-tech-blog.jpg?raw=true"
   },
   {
     "id": "6",
     "name": "Weather Dashboard",
     "appLink": "https://cshepscorp.github.io/weather-dashboard/",
     "gitHubLink": "https://github.com/cshepscorp/weather-dashboard",
-    "image": "https://github.com/cshepscorp/weather-dashboard/raw/main/assets/images/app-preview.png"
+    "image": "https://github.com/cshepscorp/react-portfolio/blob/main/public/images/weather-dashboard.jpg?raw=true"
   }
 ]
