@@ -12,7 +12,7 @@ function App() {
   const [contactSelected, setContactSelected] = useState(false);
   const [portfolioSelected, setPortfolioSelected] = useState(false);
   const [resumeSelected, setResumeSelected] = useState(false);
-  const [aboutSelected, setAboutSelected] = useState(false); // prevent the contact form from showing when a user initially navigates to the homepage
+  const [aboutSelected, setAboutSelected] = useState(true); // prevent the contact form from showing when a user initially navigates to the homepage
 
   return (
     <div>
