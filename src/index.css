@@ -29,7 +29,9 @@ a {
 /* header and nav styles */
 header {
   padding: 20px 35px;
-  background-color: var(--tertiary-color);
+  /* background-color: var(--tertiary-color);
+   */
+  background-image: url("../public/images/footer-grad-bow.jpeg");
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -155,7 +157,10 @@ form {
 }
 
 .card:hover {
-  background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5));
+  background: linear-gradient(
+    rgba(255, 255, 255, 0.5),
+    rgba(255, 255, 255, 0.5)
+  );
   background-size: cover;
   background-position: center;
   background-blend-mode: multiply;
