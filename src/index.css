@@ -102,13 +102,10 @@ section {
 section:nth-child(odd) {
   background-color: var(--primary-color);
 }
-/* 
-.hero h2 {
-  font-size: 80px;
-  margin: 80px 0 90px 0;
-  text-align: left;
-  color: var(--tertiary-color);
-} */
+
+form {
+  width: 60%;
+}
 
 /* main body styles */
 .intro {
