@@ -4,14 +4,14 @@
     "name": "Pokegen",
     "appLink": "https://desolate-ridge-10974.herokuapp.com/",
     "gitHubLink": "https://github.com/cshepscorp/pokegen",
-    "image": "https://desolate-ridge-10974.herokuapp.com/images/hero-pokegen_bg.png"
+    "image": "https://github.com/cshepscorp/react-portfolio/blob/main/public/images/pokegen.png?raw=true"
   },
   {
     "id": "2",
     "name": "Lorem Sipsum",
     "appLink": "https://cshepscorp.github.io/lorem-sipsum/",
     "gitHubLink": "https://github.com/cshepscorp/lorem-sipsum",
-    "image": "https://github.com/cshepscorp/lorem-sipsum/raw/main/LoremSipsum.PNG"
+    "image": "https://github.com/cshepscorp/react-portfolio/blob/main/public/images/lorem-sipsum.jpg?raw=true"
   },
   {
     "id": "3",
