@@ -28,6 +28,17 @@ function Nav(props) {
               setPortfolioSelected(false);
             }}
           >
+      <h1 onClick={() => { setContactSelected(false);
+                            setAboutSelected(false);
+                            setResumeSelected(false);
+                             setPortfolioSelected(false)}}>
+        <a>Christy Sheppard</a>
+      <nav>
+        <ul>
+          <li onClick={() => { setContactSelected(false);
+                                      setAboutSelected(true);
+                            setResumeSelected(false);
+                             setPortfolioSelected(false)}}>
             <a>About Me</a>
           </li>
         </ul>
@@ -40,6 +51,10 @@ function Nav(props) {
               setPortfolioSelected(true);
             }}
           >
+        <li onClick={() => { setContactSelected(false);
+                                    setAboutSelected(false);
+                              setResumeSelected(false);
+                             setPortfolioSelected(true)}}>
             <a>Portfolio</a>
           </li>
         </ul>
@@ -52,6 +67,10 @@ function Nav(props) {
               setPortfolioSelected(false);
             }}
           >
+        <li onClick={() => { setContactSelected(false);
+                                    setAboutSelected(false);
+                              setResumeSelected(true);   
+                             setPortfolioSelected(false)}}>
             <a>Resume</a>
           </li>
         </ul>
@@ -68,6 +87,11 @@ function Nav(props) {
             <a>Contact</a>
           </li>
         </ul>
+            onClick={() => { setContactSelected(true);
+              setAboutSelected(false);
+              setResumeSelected(false);   
+             setPortfolioSelected(false)}}>
+            <a>Contact</a>
       </nav>
     </header>
   );
