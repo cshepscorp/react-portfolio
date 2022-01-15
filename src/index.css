@@ -109,13 +109,18 @@ form {
 
 /* main body styles */
 .intro {
-  flex: 1;
+  flex: 2;
   padding: 35px;
 }
 
 .intro h3 {
   font-size: 26px;
   border-bottom: 1px solid var(--tertiary-color);
+  margin-bottom: 12px;
+}
+
+.intro a {
+  color: rgba(255, 255, 255, 1);
 }
 
 .guts {
@@ -145,35 +150,19 @@ form {
   border: 1px solid #000;
   border-radius: 2px;
   color: rgba(255, 255, 255, 1);
-  background-color: #999;
+  background-color: #fff;
+  line-height: 24px;
 }
 
 .card:hover {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5));
   background-size: cover;
   background-position: center;
   background-blend-mode: multiply;
 }
 
-.featured h4,
-.featured p {
-  font-size: 1.5em;
-}
-.featured {
-  flex: 100%;
-  background-image: url("../public/images/pokegen.png"),
-    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.05));
-  background-size: cover;
-  background-position: center;
-  background-blend-mode: multiply;
-}
-
-.featured:hover {
-  background-image: url("../public/images/pokegen.png"),
-    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
-  background-size: cover;
-  background-position: center;
-  background-blend-mode: multiply;
+.card h3 {
+  color: var(--secondary-color);
 }
 
 .card h4 {
@@ -181,72 +170,41 @@ form {
   padding-bottom: 6px;
 }
 
-/* special backgrounds and hover states for cards */
-.two {
-  background-image: url("../public/images/lorem-sipsum.jpg"),
-    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
-  background-size: cover;
-  background-position: center;
-  background-blend-mode: multiply;
-}
-
-.two:hover {
-  background-image: url("../public/images/lorem-sipsum.jpg"),
-    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
-  background-size: cover;
-  background-position: center;
-  background-blend-mode: multiply;
-}
-
-.three {
-  background-image: url("../public/images/robot-glads.jpeg"),
-    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
-  background-size: cover;
-  background-position: center;
-  background-blend-mode: multiply;
-}
-
-.three:hover {
-  background-image: url("../public/images/robot-glads.jpeg"),
-    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
-  background-size: cover;
-  background-position: center;
-  background-blend-mode: multiply;
-}
-
-.four {
-  background-image: url("../public/images/rb-hero-bg.jpeg"),
-    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
-  background-size: cover;
-  background-position: center;
-  background-blend-mode: multiply;
-}
-
-.four:hover {
-  background-image: url("../public/images/rb-hero-bg.jpeg"),
-    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
-  background-size: cover;
-  background-position: center;
-  background-blend-mode: multiply;
-}
-
 /* contact styling */
 .contact,
 .social {
-  flex: 0 0 40%;
+  text-align: center;
 }
 
-.contact ul,
-.social ul {
-  padding-top: 10px;
-  padding-left: 40px;
-  list-style: none;
+.social a {
+  color: #2c314c;
+  font-size: 20px;
+  padding: 1%;
 }
 
-.contact ul li a,
-.social ul li a {
+.social h3 {
+  padding-bottom: 10px;
+}
+
+label {
+  display: block;
+}
+
+input {
+  height: 30px;
+  width: 50%;
+  margin-bottom: 10px;
+}
+
+textarea {
+  width: 50%;
+}
+
+button {
   color: rgba(255, 255, 255, 1);
-  line-height: 1.5;
+  padding: 12px;
+  font-size: large;
+  background-color: #ff69b4;
 }
 
 .flex-row {
@@ -273,9 +231,9 @@ footer {
   background-color: #999;
   background-image: url("../public/images/footer-grad-bow.jpeg");
   background-size: cover;
-  display: flex;
+  /* display: flex; */
   justify-content: center;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
 }
 
 /* media queries */
