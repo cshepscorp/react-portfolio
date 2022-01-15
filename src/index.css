@@ -296,8 +296,11 @@ footer {
 }
 @media screen and (max-width: 575px) {
   header {
-    padding: 20px 15px 10px 15px;
+    padding: 20px 6px 10px 6px;
     justify-content: center;
+  }
+  header nav a {
+    font-size: 19px;
   }
   header h1 {
     font-size: 2.25em;
