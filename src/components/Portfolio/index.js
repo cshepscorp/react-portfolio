@@ -4,7 +4,9 @@ function Portfolio() {
   return (
     <section id="work">
       <div class="intro">
+
         <h3>Portfolio</h3>
+
       </div>
       <div class="guts">
         {/* <!-- cards to display projects --> */}
