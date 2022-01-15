@@ -81,14 +81,31 @@ header nav ul a:hover:after {
 }
 
 /* all sections get */
-section {
+/* section {
   padding: 0;
   color: #fff;
   display: flex;
   flex-wrap: wrap;
   background-color: teal;
+} */
+
+section {
+  padding: 20px 35px;
+  font-weight: bold;
+  color: #fff;
+  background-color: teal;
+  background-size: cover;
+  /* display: flex; */
+  justify-content: center;
+  /* flex-wrap: wrap; */
+  text-align: left;
+  padding: 1% 10%;
 }
 
+.wrap {
+
+  line-height: normal;
+}
 /* hero styles */
 .hero {
   background-image: url("../public/images/hero-headshot-vinyls.jpeg");
@@ -112,7 +129,7 @@ form {
 /* main body styles */
 .intro {
   flex: 2;
-  padding: 35px;
+  padding-top: 25px;
 }
 
 .intro h3 {
