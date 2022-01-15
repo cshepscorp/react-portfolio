@@ -85,6 +85,7 @@ section {
   display: flex;
   flex-wrap: wrap;
   background-color: teal;
+  justify-content: center;
 }
 
 /* hero styles */
@@ -155,7 +156,10 @@ form {
 }
 
 .card:hover {
-  background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5));
+  background: linear-gradient(
+    rgba(255, 255, 255, 0.5),
+    rgba(255, 255, 255, 0.5)
+  );
   background-size: cover;
   background-position: center;
   background-blend-mode: multiply;
@@ -192,12 +196,12 @@ label {
 
 input {
   height: 30px;
-  width: 50%;
+  width: 80%;
   margin-bottom: 10px;
 }
 
 textarea {
-  width: 50%;
+  width: 80%;
 }
 
 button {
