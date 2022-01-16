@@ -9,7 +9,7 @@ function Nav(props) {
     <header>
       {/* <!-- site logo graphic and or main text logo --> */}
       <h1>
-        <a
+        <a href="/" 
           onClick={() => {
             setContactSelected(false);
             setAboutSelected(false);
@@ -23,7 +23,7 @@ function Nav(props) {
       <nav>
         <ul>
           <li>
-            <a
+            <a href="#about"
               className={`${aboutSelected && "navActive"}`}
               onClick={() => {
                 setContactSelected(false);
@@ -38,7 +38,7 @@ function Nav(props) {
         </ul>
         <ul>
           <li>
-            <a
+            <a href="#portfolio"
               className={`${portfolioSelected && "navActive"}`}
               onClick={() => {
                 setContactSelected(false);
@@ -53,7 +53,7 @@ function Nav(props) {
         </ul>
         <ul>
           <li>
-            <a
+            <a href="#resume"
               className={`${resumeSelected && "navActive"}`}
               onClick={() => {
                 setContactSelected(false);
@@ -68,7 +68,7 @@ function Nav(props) {
         </ul>
         <ul>
           <li>
-            <a
+            <a href="#contact"
               className={`${contactSelected && "navActive"}`}
               onClick={() => {
                 setContactSelected(true);
