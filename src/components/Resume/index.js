@@ -8,7 +8,7 @@ function Resume() {
       <div class="guts">
         <div class="resume">
           <h3>
-            <a href="https://github.com/cshepscorp/react-portfolio/blob/main/public/Resume-Christy-Sheppard.pdf">
+            <a href="https://raw.githubusercontent.com/cshepscorp/react-portfolio/main/public/Resume-Christy-Sheppard.pdf">
               <i class="fa fa-download"></i> Download my Resume
             </a>
           </h3>

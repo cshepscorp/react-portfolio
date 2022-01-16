@@ -303,6 +303,7 @@ footer {
   header {
     padding: 20px 6px 10px 6px;
     justify-content: center;
+    background-color: #fce138;
   }
   header nav a {
     font-size: 16px;
