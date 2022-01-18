@@ -29,8 +29,8 @@ function App() {
       <main>
         {!contactSelected && !portfolioSelected && !resumeSelected ? (
           <>
-            <Hero></Hero>
-            <About></About>
+            <Hero />
+            <About />
           </>
         ) : (
           <></>
@@ -39,7 +39,7 @@ function App() {
         {portfolioSelected ? <Portfolio></Portfolio> : <></>}
         {resumeSelected ? <Resume></Resume> : <></>}
       </main>
-      <Footer></Footer>
+      <Footer />
     </div>
   );
 }
