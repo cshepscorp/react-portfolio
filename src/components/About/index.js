@@ -9,6 +9,7 @@ function About() {
       <div className="guts">
         <img
           src="https://raw.githubusercontent.com/cshepscorp/react-portfolio/main/public/images/hero-headshot-vinyls.png"
+          alt="Christina Sheppard headshot"
           width="400px"
         />
         <h4>Hi, I'm Christy Sheppard</h4>
