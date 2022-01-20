@@ -17,16 +17,16 @@ My professional portfolio can be viewed here: https://morning-gorge-60184.heroku
 
 ## About
 
-This is a portfolio that markets my abilities as a web developer and the projects I've created that demonstrate said abilities.
+This is a portfolio built using React that markets my abilities as a web developer and the projects I've created that demonstrate said abilities.
 
 <a name="tech"></a>
 
 ## Technologies
 
-- React\
-- React Router\
-- Node.js\
-- Express.js\
+- React
+- React Router
+- Node.js
+- Express.js
 
 <a name="license"></a>
 
