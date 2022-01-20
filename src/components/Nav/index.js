@@ -1,84 +1,33 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Nav(props) {
-  const { contactSelected, setContactSelected } = props;
-  const { portfolioSelected, setPortfolioSelected } = props;
-  const { resumeSelected, setResumeSelected } = props;
-  const { aboutSelected, setAboutSelected } = props;
+
   return (
     <header>
       {/* <!-- site logo graphic and or main text logo --> */}
       <h1>
-        <a href="" 
-          onClick={() => {
-            setContactSelected(false);
-            setAboutSelected(false);
-            setResumeSelected(false);
-            setPortfolioSelected(false);
-          }}
-        >
-          Christy Sheppard
-        </a>
+      <Link to="/">Christy Sheppard</Link>
       </h1>
       <nav>
         <ul>
           <li>
-            <a href="#about"
-              className={`${aboutSelected && "navActive"}`}
-              onClick={() => {
-                setContactSelected(false);
-                setAboutSelected(true);
-                setResumeSelected(false);
-                setPortfolioSelected(false);
-              }}
-            >
-              About Me
-            </a>
+          <Link to="/about">About Me</Link>
           </li>
         </ul>
         <ul>
           <li>
-            <a href="#portfolio"
-              className={`${portfolioSelected && "navActive"}`}
-              onClick={() => {
-                setContactSelected(false);
-                setAboutSelected(false);
-                setResumeSelected(false);
-                setPortfolioSelected(true);
-              }}
-            >
-              Portfolio
-            </a>
+          <Link to="/portfolio">Portfolio</Link>
           </li>
         </ul>
         <ul>
           <li>
-            <a href="#resume"
-              className={`${resumeSelected && "navActive"}`}
-              onClick={() => {
-                setContactSelected(false);
-                setAboutSelected(false);
-                setResumeSelected(true);
-                setPortfolioSelected(false);
-              }}
-            >
-              Resume
-            </a>
+          <Link to="/resume">Resume</Link>
           </li>
         </ul>
         <ul>
           <li>
-            <a href="#contact"
-              className={`${contactSelected && "navActive"}`}
-              onClick={() => {
-                setContactSelected(true);
-                setAboutSelected(false);
-                setResumeSelected(false);
-                setPortfolioSelected(false);
-              }}
-            >
-              Contact
-            </a>
+          <Link to="/contact">Contact</Link>
           </li>
         </ul>
       </nav>
