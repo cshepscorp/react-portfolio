@@ -2,26 +2,31 @@
 
 ![Screenshot of the budget tracker application](public/images/readme-screenshot-react-portfolio.jpg)
 
-This is a portfolio that markets my abilities as a web developer and the projects I've created that demonstrate said abilities.
-
 ### Deployed Link
 
 My professional portfolio can be viewed here: https://morning-gorge-60184.herokuapp.com/
 
 ## Table of Contents
+
+- [ About ](#about)
 - [ Technologies ](#tech)
 - [ License ](#license)
 - [ Questions ](#questions)
+
+<a name="About"></a>
+
+## About
+
+This is a portfolio that markets my abilities as a web developer and the projects I've created that demonstrate said abilities.
 
 <a name="tech"></a>
 
 ## Technologies
 
-JavaScript\
- Node.js\
- Express.js\
- React
- React Router
+- React\
+- React Router\
+- Node.js\
+- Express.js\
 
 <a name="license"></a>
 
