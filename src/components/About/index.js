@@ -7,7 +7,10 @@ function About() {
         <h3>About Me</h3>
       </div>
       <div className="guts">
-        <img src="https://raw.githubusercontent.com/cshepscorp/react-portfolio/main/public/images/hero-headshot-vinyls.png" width='400px' />
+        <img
+          src="https://raw.githubusercontent.com/cshepscorp/react-portfolio/main/public/images/hero-headshot-vinyls.png"
+          width="400px"
+        />
         <h4>Hi, I'm Christy Sheppard</h4>
         <p>
           I am a Full Stack Web Developer utilizing deep experience with Adobe

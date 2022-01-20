@@ -1,33 +1,38 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 function Nav(props) {
+
+  const { contactSelected, setContactSelected } = props;
+  const { portfolioSelected, setPortfolioSelected } = props;
+  const { resumeSelected, setResumeSelected } = props;
+  const { aboutSelected, setAboutSelected } = props;
 
   return (
     <header>
       {/* <!-- site logo graphic and or main text logo --> */}
       <h1>
-      <Link to="/">Christy Sheppard</Link>
+      <NavLink to="/" activeClassName='navActive'>Christy Sheppard</NavLink>
       </h1>
       <nav>
         <ul>
           <li>
-          <Link to="/about">About Me</Link>
+          <NavLink to="/about" activeClassName='navActive'>About Me</NavLink>
           </li>
         </ul>
         <ul>
           <li>
-          <Link to="/portfolio">Portfolio</Link>
+          <NavLink to="/portfolio" activeClassName='navActive'>Portfolio</NavLink>
           </li>
         </ul>
         <ul>
           <li>
-          <Link to="/resume">Resume</Link>
+          <NavLink to="/resume" activeClassName='navActive'>Resume</NavLink>
           </li>
         </ul>
         <ul>
           <li>
-          <Link to="/contact">Contact</Link>
+          <NavLink to="/contact" activeClassName='navActive'>Contact</NavLink>
           </li>
         </ul>
       </nav>
