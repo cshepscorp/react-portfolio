@@ -22,6 +22,7 @@ function Resume() {
             <li>Handlebars</li>
             <li>WordPress</li>
             <li>Shopify</li>
+            <br />
           </ul>
           <h4>Backend:</h4>
           <ul>
