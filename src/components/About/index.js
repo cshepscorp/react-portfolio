@@ -6,12 +6,15 @@ function About() {
       <div className="intro">
         <h3>About Me</h3>
       </div>
-      <div className="guts">
-        <img
+      <div className="headshot">
+      <img
           src="https://raw.githubusercontent.com/cshepscorp/react-portfolio/main/public/images/hero-headshot-vinyls.png"
           alt="Christina Sheppard headshot"
           width="400px"
         />
+      </div>
+      <div className="guts">
+        
         <h4>Hi, I'm Christy Sheppard</h4>
         <p>
           I am a Full Stack Web Developer utilizing deep experience with Adobe
