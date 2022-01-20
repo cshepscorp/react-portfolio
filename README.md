@@ -2,7 +2,7 @@
 
 ![Screenshot of the budget tracker application](public/images/readme-screenshot-react-portfolio.jpg)
 
-This is a portfolio that markets my tells a little about me, my skills as a web developer and the projects I've created that demonstrate said skills.
+This is a portfolio that markets my abilities as a web developer and the projects I've created that demonstrate said abilities.
 
 ### Deployed Link
 
