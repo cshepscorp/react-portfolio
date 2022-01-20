@@ -3,10 +3,10 @@ import React from "react";
 function About() {
   return (
     <section>
-      <div class="intro">
+      <div className="intro">
         <h3>About Me</h3>
       </div>
-      <div class="guts">
+      <div className="guts">
         <img src="https://raw.githubusercontent.com/cshepscorp/react-portfolio/main/public/images/hero-headshot-vinyls.png" width='400px' />
         <h4>Hi, I'm Christy Sheppard</h4>
         <p>

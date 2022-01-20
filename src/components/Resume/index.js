@@ -2,14 +2,14 @@ import React from "react";
 function Resume() {
   return (
     <section id="about">
-      <div class="intro">
+      <div className="intro">
         <h3>Resume</h3>
       </div>
-      <div class="guts">
-        <div class="resume">
+      <div className="guts">
+        <div className="resume">
           <h3>
             <a href="https://raw.githubusercontent.com/cshepscorp/react-portfolio/main/public/Resume-Christy-Sheppard.pdf">
-              <i class="fa fa-download"></i> Download my Resume
+              <i className="fa fa-download"></i> Download my Resume
             </a>
           </h3>
           <h3>Technical Skills</h3>

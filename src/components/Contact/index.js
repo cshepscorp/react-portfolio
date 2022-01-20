@@ -46,21 +46,21 @@ function ContactForm() {
 
   return (
     <section id="contact">
-      <div class="intro">
+      <div className="intro">
         <h3>Contact Me</h3>
         <p>
-            <a href="mailto:sheppard.christy@gmail.com">
-              <i class="fa fa-envelope-square"></i> sheppard dot christy [at]
-              gmail
-            </a>
+          <a href="mailto:sheppard.christy@gmail.com">
+            <i className="fa fa-envelope-square"></i> sheppard dot christy [at]
+            gmail
+          </a>
         </p>
         <p>
-            <a href="tel:18049281876">
-              <i class="fa fa-phone-square"></i> 804-928-1876
-            </a>
+          <a href="tel:18049281876">
+            <i className="fa fa-phone-square"></i> 804-928-1876
+          </a>
         </p>
       </div>
-      <div class="guts">
+      <div className="guts">
         <form id="contact-form" onSubmit={handleSubmit}>
           <div>
             <label htmlFor="name">Name:</label>
@@ -96,7 +96,6 @@ function ContactForm() {
           )}
           <button type="submit">Submit</button>
         </form>
-        
       </div>
     </section>
   );
