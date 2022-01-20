@@ -1,11 +1,12 @@
 # React Professional Portfolio ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
-    ![Screenshot of the budget tracker application](public/images/readme-screenshot-react-portfolio.jpg)
-    This is a portfolio that markets my tells a little about me, my skills as a web developer and the projects I've created that demonstrate said skills.
+![Screenshot of the budget tracker application](public/images/readme-screenshot-react-portfolio.jpg)
+
+This is a portfolio that markets my tells a little about me, my skills as a web developer and the projects I've created that demonstrate said skills.
 
 ### Deployed Link
 
-My professional portfolio can be viewed here: https://choosealicense.com/licenses/mit/
+My professional portfolio can be viewed here: https://morning-gorge-60184.herokuapp.com/
 
 ## Table of Contents
 - [ Technologies ](#tech)
