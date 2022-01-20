@@ -107,7 +107,7 @@ section {
 }
 /* hero styles */
 .hero {
-  background-image: url("../public/images/hero-headshot-vinyls.jpeg");
+  background-image: url("../public/images/hero-headshot-vinyls.png");
   background-size: cover;
   background-position: center;
   position: relative;
