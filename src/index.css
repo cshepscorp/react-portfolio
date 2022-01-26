@@ -130,10 +130,28 @@ form {
   justify-content: space-between;
 }
 
+@keyframes fade-in {
+  from {
+    opacity: 30%;
+  }
+  to {
+    opacity: 100%;
+  }
+}
+
 .headshot {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.headshot img {
+  width: 400px;
+  animation-name: fade-in;
+  animation-duration: 2s;
+}
+
+.headshot img:hover {
 }
 
 .guts h4 {
