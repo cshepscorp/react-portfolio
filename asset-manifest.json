@@ -1,21 +1,16 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.c55156ce.css",
-    "main.js": "/react-portfolio/static/js/main.388c5d6b.js",
+    "main.css": "/react-portfolio/static/css/main.c41ba37c.css",
+    "main.js": "/react-portfolio/static/js/main.4762b8c6.js",
     "static/js/787.8c081f57.chunk.js": "/react-portfolio/static/js/787.8c081f57.chunk.js",
-    "static/media/rb-hero-bg.jpeg": "/react-portfolio/static/media/rb-hero-bg.000e1b5ff4f0b912c97f.jpeg",
-    "static/media/hero-headshot-vinyls.jpeg": "/react-portfolio/static/media/hero-headshot-vinyls.e74857e970e555bd1af7.jpeg",
-    "static/media/pokegen.png": "/react-portfolio/static/media/pokegen.bc950641af80b8cd119b.png",
     "static/media/footer-grad-bow.jpeg": "/react-portfolio/static/media/footer-grad-bow.ce3e51d17ec62dad632d.jpeg",
-    "static/media/robot-glads.jpeg": "/react-portfolio/static/media/robot-glads.53ed62b25ec8775801b5.jpeg",
-    "static/media/lorem-sipsum.jpg": "/react-portfolio/static/media/lorem-sipsum.b6701c872e25140bf3d2.jpg",
     "index.html": "/react-portfolio/index.html",
-    "main.c55156ce.css.map": "/react-portfolio/static/css/main.c55156ce.css.map",
-    "main.388c5d6b.js.map": "/react-portfolio/static/js/main.388c5d6b.js.map",
+    "main.c41ba37c.css.map": "/react-portfolio/static/css/main.c41ba37c.css.map",
+    "main.4762b8c6.js.map": "/react-portfolio/static/js/main.4762b8c6.js.map",
     "787.8c081f57.chunk.js.map": "/react-portfolio/static/js/787.8c081f57.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c55156ce.css",
-    "static/js/main.388c5d6b.js"
+    "static/css/main.c41ba37c.css",
+    "static/js/main.4762b8c6.js"
   ]
 }
