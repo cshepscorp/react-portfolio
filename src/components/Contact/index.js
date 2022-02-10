@@ -60,7 +60,7 @@ function ContactForm() {
           </a>
         </p>
       </div>
-      <div className="guts">
+      {/* <div className="guts">
         <form id="contact-form" onSubmit={handleSubmit}>
           <div>
             <label htmlFor="name">Name:</label>
@@ -96,7 +96,7 @@ function ContactForm() {
           )}
           <button type="submit">Submit</button>
         </form>
-      </div>
+      </div> */}
     </section>
   );
 }
