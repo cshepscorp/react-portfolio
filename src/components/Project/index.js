@@ -7,6 +7,8 @@ function Project(props) {
         <img alt={props.name} src={props.image} width="100%" />
       </a>
       <h3>{props.name}</h3>
+      <p>{props.description}</p>
+      <p>Tech Used: {props.tech}</p>
       <p>
         <a href={props.appLink}>
           <i className="fa fa-external-link"></i> Deployed App

@@ -17,6 +17,8 @@ function Portfolio() {
             key={project.id}
             image={project.image}
             name={project.name}
+            description={project.description}
+            tech={project.tech}
             appLink={project.appLink}
             gitHubLink={project.gitHubLink}
           />

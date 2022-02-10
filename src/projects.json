@@ -1,38 +1,48 @@
 [
   {
     "id": "1",
+    "name": "Reading Rambo",
+    "description": "Connecting book lovers to movies, and vice versa, by allowing users to search for their favorites of either and find the inverse, corresponding media.",
+    "tech": "GraphQL, React, Node.js, Express.js, Apollo, JWT",
+    "appLink": "https://calm-river-58569.herokuapp.com/",
+    "gitHubLink": "https://github.com/cshepscorp/reading-rambo",
+    "image": "https://github.com/cshepscorp/reading-rambo/raw/main/client/src/assets/icons/rr-icon.png"
+  },
+  {
+    "id": "2",
     "name": "Pokegen",
+    "description": "Pokegen is a place where users can create their very own pokemon cards.",
+    "tech": "Express, Sequelize, MySql, Handlebars, Node.js",
     "appLink": "https://desolate-ridge-10974.herokuapp.com/",
     "gitHubLink": "https://github.com/cshepscorp/pokegen",
     "image": "https://github.com/cshepscorp/react-portfolio/blob/main/public/images/pokegen.png?raw=true"
   },
   {
-    "id": "2",
+    "id": "3",
     "name": "Lorem Sipsum",
+    "description": "Lorem Sipsum provides one place to find an event, restaurant and/or brewery in any city  so you can plan the perfect night out.",
+    "tech": "JavaScript, CSS, HTML",
     "appLink": "https://cshepscorp.github.io/lorem-sipsum/",
     "gitHubLink": "https://github.com/cshepscorp/lorem-sipsum",
     "image": "https://github.com/cshepscorp/react-portfolio/blob/main/public/images/lorem-sipsum.jpg?raw=true"
   },
   {
-    "id": "3",
+    "id": "4",
     "name": "Budget Tracker",
+    "description": "A budget tracking app that utilizes service workers to function even while offline.",
+    "tech": "MongoDB, PWA, Express, Mongoose, IndexedDB",
     "appLink": "https://pacific-inlet-60509.herokuapp.com/",
     "gitHubLink": "https://github.com/cshepscorp/budget-tracker",
     "image": "https://github.com/cshepscorp/react-portfolio/blob/main/public/images/budget-tracker.jpg?raw=true"
   },
   {
-    "id": "4",
+    "id": "5",
     "name": "MVC Challenge Tech Blog",
+    "description": "CMS-style blog site you can use to create your own blog where users can log in and create their own entries and comment on others.",
+    "tech": "Express, Sequelize, MySql 2, Handlebars, Node.js",
     "appLink": "https://sleepy-fjord-78462.herokuapp.com/",
     "gitHubLink": "https://github.com/cshepscorp/MVC-Challenge-Tech-Blog",
     "image": "https://github.com/cshepscorp/react-portfolio/blob/main/public/images/mvc-tech-blog.jpg?raw=true"
-  },
-  {
-    "id": "5",
-    "name": "Weather Dashboard",
-    "appLink": "https://cshepscorp.github.io/weather-dashboard/",
-    "gitHubLink": "https://github.com/cshepscorp/weather-dashboard",
-    "image": "https://github.com/cshepscorp/react-portfolio/blob/main/public/images/weather-dashboard.jpg?raw=true"
   },
   {
     "id": "6",
