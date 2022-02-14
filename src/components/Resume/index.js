@@ -16,19 +16,20 @@ function Resume() {
           <h4>Frontend:</h4>
           <ul>
             <li>React</li>
-            <li>JQuery</li>
             <li>Bootstrap</li>
             <li>CSS</li>
             <li>Handlebars</li>
+            <li>JQuery</li>
             <li>WordPress</li>
             <li>Shopify</li>
             <br />
           </ul>
           <h4>Backend:</h4>
           <ul>
-            <li>MySQL</li>
             <li>Express</li>
             <li>Node-js</li>
+            <li>GraphQL</li>
+            <li>MySQL</li>
             <li>Sequelize</li>
             <li>MongoDB</li>
             <li>Mongoose</li>
